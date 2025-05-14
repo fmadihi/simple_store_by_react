@@ -7,8 +7,8 @@ const Shop = () =>{
         <React.Fragment>
             <h1>Shop</h1>
             <div className="row">
-                {Product.map((elem)=>{
-                   return <Products data={elem} />
+                {Product.map((elem,index)=>{
+                   return <Products data={elem} key={index}/>
                 })}
             </div>
         </React.Fragment>
