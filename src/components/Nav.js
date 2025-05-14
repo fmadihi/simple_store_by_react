@@ -6,7 +6,7 @@ const Nav = () => {
     <div className="navbar navbar-dark bg-dark navbar-expan-lg ">
       <div className="container">
         <a className="navbar-brand">Fatemeh Madihi</a>
-        <ul class="nav nav-tabs">
+        <ul className="nav nav-tabs">
           {/* <li class="nav-item m-2">
             <Link
               class="nav-link disabled bg-danger text-light"
@@ -16,17 +16,17 @@ const Nav = () => {
               Disabled
             </Link>
           </li> */}
-          <li class="nav-item bg-seccess m-2">
+          <li className="nav-item bg-seccess m-2">
             <Link
-              class="nav-link bg-danger text-light"
+              className="nav-link bg-danger text-light"
               aria-current="page"
               to="/"
             >
               Shop
             </Link>
           </li>
-          <li class="nav-item m-2">
-            <Link class="nav-link bg-danger text-light" to="/Card">
+          <li className="nav-item m-2">
+            <Link className="nav-link bg-danger text-light" to="/Card">
               <FontAwesomeIcon icon={faCartShopping} />
             </Link>
           </li>
